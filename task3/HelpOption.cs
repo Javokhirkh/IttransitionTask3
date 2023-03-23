@@ -21,45 +21,9 @@ public class HelpOption
 
             table.AddRow(row);
         }
-        
-        table.Write();
-    }
-
-    private void DrawLine(string[] moves)
-    {
-        int sumLength = CalculatorLengthOfTable(moves) + MaxLengthOfMovesName(moves);
-        DrawRowLine(sumLength);
-    }
-
-    private int MaxLengthOfMovesName(string[] moves)
-    {
-        int max = moves[0].Length;
-        for (int i = 1; i <moves.Length; i++)
-        {
-            if (moves[i].Length > max)
-            {
-                max = moves[i].Length+2;
-            }
-        }
-        return max;
-    }
-
-    private int CalculatorLengthOfTable(string[] moves)
-    {
-        return moves.Sum(t => t.Length + 2);
-    }
-
-    private void WriteToConsole(string message)
-    {
-        Console.WriteLine(message);
-    }
-
-    private void DrawRowLine(int lengthLine)
-    {
-        for (int i = 0; i <lengthLine ; i++)
-        {
-            Console.Write('_');
-        }
         Console.WriteLine();
-    }
+        Console.WriteLine("Move in column win/draw/lose move in row");
+        Console.WriteLine("Example: Rock win Scissors, Rock draw Rock, Rock lose Paper");
+        table.Write();
+    } 
 }

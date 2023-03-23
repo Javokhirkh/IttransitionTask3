@@ -120,6 +120,7 @@ bool ValidateArguments(string[] strings)
     if (strings.ToHashSet().Count < strings.Length)
     {
         Console.WriteLine("Given argument has some duplicates!");
+        Console.WriteLine("Arguments should be unique!");
         Console.WriteLine("Example: rock paper scissors");
         return true;
     }
