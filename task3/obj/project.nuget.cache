@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hf6Y01iwM+ygicQYJ4ECUoNRQ30KpsPZNDyeAhJmVKHJv4KRw0ZtK+ToFgIzh+VBukzNdnWN6+PQhV0mrtrkdg==",
+  "dgSpecHash": "JA6aVI0OiKr5FBYcaEClEWaOVG06auBIKwT2fWKvv936bccPNreWdpa61a/sBnlc0iUrUOnBtdpymrKp7djb3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\javoh\\RiderProjects\\Itansition\\task3\\task3.csproj",
+  "projectFilePath": "E:\\Projects\\IttransitionTask3\\task3\\task3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\javoh\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
     "C:\\Users\\javoh\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
